@@ -1,0 +1,247 @@
+[
+   {
+      "category": "Plant Generation",
+      "plant": "",
+      "bmd": "",
+      "idata":"",
+      "diff": ""
+   },
+   {
+      "category": "",
+      "plant": "Belle River (DECo)",
+      "bmd": 607379,
+      "idata": 607379,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Fermi 2",
+      "bmd": 781395,
+      "idata": 781395,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Greenwood",
+      "bmd": 31425,
+      "idata": 31425,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Monroe",
+      "bmd": 1030374,
+      "idata": 1030374,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "River Rouge",
+      "bmd": 124894,
+      "idata": 124894,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "St. Clair",
+      "bmd": 5784,
+      "idata": 5784,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Trenton Channel",
+      "bmd": 162614,
+      "idata": 162614,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Peaking Units",
+      "bmd": 100387,
+      "idata": 100387,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Wind Generation",
+      "bmd": 118711,
+      "idata": 118711,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "DECo Owned Solar",
+      "bmd": 1723,
+      "idata": 1723,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Total DTE Generation",
+      "bmd": 2964685,
+      "idata": 2964685,
+      "diff": 0
+   },
+   {
+      "category":"Energy Inflows (Metered):",
+      "plant": "",
+      "bmd": "",
+      "idata":"",
+      "diff": ""
+   },
+   {
+      "category": "",
+      "plant": "Consumers Power Company",
+      "bmd": 423591,
+      "idata": 423591,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Ontario Hydro",
+      "bmd": 970372,
+      "idata": 970372,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Toledo Edison Company",
+      "bmd": 41818,
+      "idata": 41818,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Dearborn Industrial Generation",
+      "bmd": 377755,
+      "idata": 377755,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Cogeneration Facilities",
+      "bmd": 49347,
+      "idata": 49347,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "IPP Generation",
+      "bmd": 116060,
+      "idata": 116040,
+      "diff": 20
+   },
+   {
+      "category": "",
+      "plant": "Total Energy Inflows",
+      "bmd": 1978943,
+      "idata": 1978923,
+      "diff": 20
+   },
+   {
+      "category": "Energy Outflows (Metered):",
+      "plant": "",
+      "bmd": "",
+      "idata":"",
+      "diff": ""
+   },
+   {
+      "category": "",
+      "plant": "Consumers Power Company",
+      "bmd": 430569,
+      "idata": 430569,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Ontario Hydro",
+      "bmd": 0,
+      "idata": 0,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Toledo Edison Company",
+      "bmd": 196764,
+      "idata": 196764,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "City of Wyandotte",
+      "bmd": 26001,
+      "idata": 26001,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Thumb",
+      "bmd": 13964,
+      "idata": 13964,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Village of Clinton",
+      "bmd": 2051,
+      "idata": 2051,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Crosswell",
+      "bmd": 3826,
+      "idata": 3826,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Sebewaing",
+      "bmd": 4570,
+      "idata": 4570,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Total Energy Outflows",
+      "bmd": 677745,
+      "idata": 677745,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Energy Inflows/(Outflows) - Unadjust.",
+      "bmd": 1301198,
+      "idata": 1301179,
+      "diff": 20
+   },
+   {
+      "category": "",
+      "plant": "Munciple Transaction Exchange",
+      "bmd": 138878,
+      "idata": 138878,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Electric Choice Flow",
+      "bmd": -447313,
+      "idata": -447313,
+      "diff": 0
+   },
+   {
+      "category": "",
+      "plant": "Net Energy Inflows/(Outflows)",
+      "bmd": 1022386,
+      "idata": 992744,
+      "diff": 29642
+   },
+   {
+      "category": "",
+      "plant": "Net System Output",
+      "bmd": 3957448,
+      "idata": 3957429,
+      "diff": 20
+   }
+]

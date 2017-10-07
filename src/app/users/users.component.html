@@ -1,0 +1,28 @@
+<div>
+	<h2>Users</h2>
+	<button class="btn btn-success" type="submit" style="margin-left: 1250px" 
+	[routerLink]="['addUser']" routerLinkActive="active">Add User </button>
+	<!--a style="color: Blue;margin-left: 1250px" title="You can add a  New User" 
+      (click)="addUser()">Add New User </a-->
+	<table class="table table-hover table-bordered ">
+		<thead class="success" style="color: #ff6600;background-color: #dce6f4;width: 80px">
+			<th></th>
+			<th>NAME</th>
+			<th>EMAIL</th>
+			<th>CITY</th>
+			<th>COMPANY</th>
+		</thead>
+		<tbody>
+			<template ngFor 
+				let-userObj [ngForOf]="users" let-hourIndex="index">
+			<tr [routerLink]="['getIndividualUser',{'id':userObj.id}]" routerLinkActive="active" (click)="getUserById(userObj?.id)">
+				<td><img class="w3-circle" style="height: 70px;width: 100px" src="{{userObj.profilePic}}"></td>
+				<td>{{userObj?.firstName}}</td>
+				<td>{{userObj?.email}}</td>
+				<td>{{userObj?.address?.city}}</td>
+				<td>{{userObj?.company?.name}}</td>
+			</tr>
+			</template>
+		</tbody>
+	</table>
+</div>

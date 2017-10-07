@@ -1,0 +1,115 @@
+<div class="container" style="background-color: #e6eaf2">
+  <form class="form-inline" #addUserForm="ngForm" (ngSubmit)="addUserForm.valid &&addNewUser(addUserForm.value)" novalidate>
+    
+    <div class="col-xs-6">
+      <div>
+        <label for="firsName">First Name<span class="asteriskField">*</span></label>
+      </div>
+      <div class="form-group">
+        
+        <input style="width: 350px;" type="text" placeholder="First Name "  class="form-control" name="firstName" ngModel #firstName="ngModel" required>
+        <div style="color:#d81132"
+          *ngIf="firstName.errors && (firstName.dirty ||firstName.touched ||addUserForm.submitted )">
+          <p *ngIf="firstName.errors.required">
+            First  Name is required
+          </p>
+        </div>
+      </div>
+      <div>
+        <label for="email">Email<span class="asteriskField">*</span></label>
+      </div>
+      <div class="form-group">
+        
+        <input style="width: 350px;" type="email" placeholder="example@domain.com"  class="form-control" name="email" ngModel #email="ngModel" required>
+        <div style="color:#d81132"
+          *ngIf="email.errors && (email.dirty ||email.touched ||addUserForm.submitted )">
+          <p *ngIf="email.errors.required">
+            Eamil is required
+          </p>
+        </div>
+      </div>
+      <div>
+        <label for="streetAddress">Street Address<span class="asteriskField">*</span></label>
+      </div>
+      <div class="form-group">
+        
+        <input style="width: 350px;" type="text" placeholder="streetAddress "  class="form-control" name="streetAddress" ngModel #streetAddress="ngModel" required>
+        <div style="color:#d81132"
+          *ngIf="streetAddress.errors && (streetAddress.dirty ||streetAddress.touched ||addUserForm.submitted )">
+          <p *ngIf="streetAddress.errors.required">
+            Street Address  is required
+          </p>
+        </div>
+      </div>
+      <div>
+        <label for="city">City<span class="asteriskField">*</span></label>
+      </div>
+      <div class="form-group">
+        
+        <input style="width: 350px;" type="text" placeholder="city"  class="form-control" name="city" ngModel #city="ngModel" required>
+        <div style="color:#d81132"
+          *ngIf="city.errors && (city.dirty ||city.touched ||addUserForm.submitted )">
+          <p *ngIf="city.errors.required">
+            City  is required
+          </p>
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-warning">Add</button>
+      </div>
+    </div>
+    <!-- Right side div -->
+    <div  class="col-xs-6">
+      <div>
+        <label for="lastName">Last Name<span class="asteriskField">*</span></label>
+      </div>
+      <div class="form-group">
+        <input type="text"style="width: 350px;"  placeholder="Last Name" class="form-control" name="lastName" ngModel #lastName="ngModel" required>
+        <div style="color:#d81132"
+          *ngIf="lastName.errors && (lastName.dirty ||lastName.touched ||addUserForm.submitted )">
+          <p *ngIf="lastName.errors.required">
+            Last Name  is required
+          </p>
+        </div>
+      </div>
+      
+      <div>
+        <label for="zip">Zip<span class="asteriskField">*</span></label>
+      </div>
+      <div class="form-group">
+        <input type="text"style="width: 350px;"  placeholder="zip" class="form-control" name="zip" ngModel #zip="ngModel" required>
+        <div style="color:#d81132"
+          *ngIf="zip.errors && (zip.dirty ||zip.touched ||addUserForm.submitted )">
+          <p *ngIf="zip.errors.required">
+            Zip is required
+          </p>
+        </div>
+      </div>
+      <div>
+        <label for="country">Country<span class="asteriskField">*</span></label>
+      </div>
+      <div class="form-group">
+        <input type="text"style="width: 350px;"  placeholder="country" class="form-control" name="country" ngModel #country="ngModel" required>
+        <div style="color:#d81132"
+          *ngIf="country.errors && (country.dirty ||country.touched ||addUserForm.submitted )">
+          <p *ngIf="country.errors.required">
+            Country is required
+          </p>
+        </div>
+      </div>
+      <div>
+        <label for="companyName">Company Name<span class="asteriskField">*</span></label>
+      </div>
+      <div class="form-group">
+        <input type="text"style="width: 350px;"  placeholder="companyname" class="form-control" name="companyName" ngModel #companyName="ngModel" required>
+        <div style="color:#d81132"
+          *ngIf="companyName.errors && (companyName.dirty ||companyName.touched ||addUserForm.submitted )">
+          <p *ngIf="companyName.errors.required">
+            Company Name is required
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </form>
+</div>
